@@ -1,0 +1,66 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.year {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+}
+
+.year h2 {
+  background-color: #444;
+  color: white;
+  padding: 10px;
+  margin: 0 -10px 10px -10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.cuatrimestre {
+  margin: 15px 0;
+  padding-left: 10px;
+}
+
+.cuatrimestre h3 {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.materia {
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-left: 6px solid #999;
+  font-size: 14px;
+}
+
+.materia.activa {
+  background-color: #d4f7d4;
+  border-left-color: #0a0;
+  color: #000;
+}
+
+.materia.bloqueada {
+  background-color: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+  border-left-color: #aaa;
+}
+
+.materia:hover:not(.bloqueada) {
+  background-color: #b2ffb2;
+}

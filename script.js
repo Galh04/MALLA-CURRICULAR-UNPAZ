@@ -134,3 +134,4 @@ function actualizarDesbloqueos() {
 }
 
 crearMalla();
+actualizarDesbloqueos();
